@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.December2020.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController">
+            <summary>
+              Applicant Controller / API
+            </summary>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.#ctor(Hahn.ApplicatonProcess.December2020.Web.Helper.ILogHelper,AutoMapper.IMapper,Hahn.ApplicatonProcess.December2020.Domain.IApplicantManager)">
+            <summary>Initializes a new instance of the <see cref="T:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController" /> class.</summary>
+            <param name="logHelper">The logger.</param>
+            <param name="mapper">The mapper.</param>
+            <param name="applicantManager">The applicant manager.</param>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Get">
+            <summary>Gets this instance.</summary>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Get(System.Int32)">
+            <summary>Gets the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(Hahn.ApplicatonProcess.December2020.Web.Model.ApplicantModel)">
+            <summary>Posts the specified applicant model.</summary>
+            <param name="applicantModel">The applicant model.</param>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Put(System.Int32,Hahn.ApplicatonProcess.December2020.Web.Model.ApplicantModel)">
+            <summary>Puts the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <param name="applicantModel">The applicant model.</param>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Delete(System.Int32)">
+            <summary>Deletes the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+        </member>
+    </members>
+</doc>

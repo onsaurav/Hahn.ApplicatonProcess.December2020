@@ -1,0 +1,35 @@
+<template>
+  <span style="color:blueviolet; font-size:x-large;">[Hahn Application]</span>
+  <br />
+  <span style="color:blueviolet; font-size:small;">
+    A prohect developed by Aurelia, Typescript, Webpack and Boostrap
+  </span>
+    
+  <div style="margin-top:20px;">
+    <span style="color:blueviolet; font-size:large;">${message}</span>
+    <div>
+      <table style="border:1px solid black;">
+        <tr style="background-color:blueviolet; color:white;">
+          <td>Id</td>
+          <td>Name</td>
+          <td>Family Name</td>
+          <td>Email</td>
+          <td>Address</td>
+          <td>Age</td>
+          <td>Hired</td>
+        </tr>
+
+        <tr repeat.for="applicant of applicants">
+          <td><span>${applicant.id}</span></td>
+          <td><span>${applicant.name}</span></td>
+          <td><span>${applicant.familyName}</span></td>
+          <td><span>${applicant.eMailAdress}</span></td>
+          <td><span>${applicant.address}</span></td>
+          <td><span>${applicant.age}</span></td>
+          <td><span>${applicant.hired}</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</template>
